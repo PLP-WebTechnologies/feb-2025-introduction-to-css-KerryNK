@@ -1,0 +1,139 @@
+/* Apply a blue background to the body */
+body {
+  background-color: #003366; /* Dark blue */
+  color: #ffffff; /* White text for contrast */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style headings */
+h1 {
+  color: #ffffff; /* White text */
+  font-family: 'Georgia', serif; /* Different font for headings */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #87CEEB; /* Sky blue */
+  font-family: 'Verdana', sans-serif;
+  margin-top: 20px;
+}
+
+/* Highlight class for special text */
+.highlight {
+  background-color: #87CEEB; /* Sky blue background */
+  color: #003366; /* Dark blue text */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Style images */
+img {
+  border: 3px solid #ffffff; /* White border */
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for aesthetics */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout for image sections */
+section img {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Style table borders and text */
+table {
+  border: 2px solid #87CEEB; /* Sky blue border */
+  background-color: #00509e; /* Medium blue */
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th, td {
+  color: #ffffff; /* White text */
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #87CEEB; /* Sky blue border */
+}
+
+/* Center the table */
+section table {
+  margin: 0 auto;
+}
+
+/* Style form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border: 2px solid #87CEEB;
+  border-radius: 10px;
+  background-color: #00509e;
+  width: 80%;
+  max-width: 500px;
+}
+
+input, select, button, fieldset, legend {
+  background-color: #00509e; /* Medium blue */
+  color: #ffffff; /* White text */
+  border: 1px solid #87CEEB; /* Sky blue border */
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+button {
+  background-color: #87CEEB; /* Sky blue */
+  color: #003366; /* Dark blue text */
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00509e; /* Medium blue */
+  color: #ffffff; /* White text */
+}
+
+/* Style links */
+a {
+  color: #87CEEB; /* Sky blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff; /* White text */
+}
+
+/* Flexbox layout for sections */
+section {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #87CEEB;
+  border-radius: 10px;
+  background-color: #00509e;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Grid layout for image galleries */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
